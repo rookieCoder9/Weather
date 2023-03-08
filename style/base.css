@@ -9,7 +9,6 @@
   flex-direction: column;
   overflow-y: auto;
   background-color: #ffc93c;
-  font-family: BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
 }
 .app button {
   background-color: #eeeeee;
