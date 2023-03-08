@@ -3,3 +3,77 @@
 
     https://jupyterlab.readthedocs.io/en/stable/developer/css.html
 */
+.app {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  background-color: #ffc93c;
+  font-family: BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+.app button {
+  background-color: #eeeeee;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.container-row {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  padding: 1rem;
+  margin: 0 auto 0 auto;
+  align-items: center;
+  justify-content: space-around;
+}
+.weatherContainer .container-row {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  padding: 1rem;
+  margin: 0 auto 0 auto;
+  align-items: center;
+  width: 80%;
+  justify-content: space-between;
+}
+.container-column {
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  margin: 2rem auto 0 auto;
+}
+.weatherContainer {
+  margin: 4rem auto 3rem auto;
+  width: 60%;
+  background-color: white;
+  border-radius: 10px;
+  color: #2b2b2b !important;
+  font-weight: bold;
+}
+div {
+  text-transform: capitalize;
+}
+
+.app input {
+  padding: 0.5rem;
+  height: 1rem;
+  font-size: 1rem;
+  border: solid 1px #dddddd;
+  border-radius: 5px;
+}
+.img {
+  border-radius: 10%;
+  width: 50px;
+  height: 50px;
+}
+.nav {
+  background-color: #0081c9;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+  align-items: center;
+
+  padding: 1rem 2rem 1rem 2rem;
+}
