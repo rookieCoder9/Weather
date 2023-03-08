@@ -7,9 +7,9 @@
     "jupyterlab",
     "jupyterlab-extension"
   ],
-  "homepage": "https://github.com/github_username/Weather",
+  "homepage": "https://github.com/rookieCoder9/Weather",
   "bugs": {
-    "url": "https://github.com/github_username/Weather/issues"
+    "url": "https://github.com/rookieCoder9/Weather/issues"
   },
   "license": "BSD-3-Clause",
   "author": {
@@ -25,7 +25,7 @@
   "style": "style/index.css",
   "repository": {
     "type": "git",
-    "url": "https://github.com/github_username/Weather.git"
+    "url": "https://github.com/rookieCoder9/Weather.git"
   },
   "scripts": {
     "build": "jlpm build:lib && jlpm build:labextension:dev",
